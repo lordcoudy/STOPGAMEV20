@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">STOPGAME V.2.0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">STOPGAME</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="faq">FAQ</string>
+    <string name="people">Люди</string>
+    <string name="blogs">Блоги</string>
+    <string name="gallery">Галерея</string>
+    <string name="secrets">Секреты</string>
+    <string name="live">Live</string>
+    <string name="videos">Видео</string>
+    <string name="writings">Статьи</string>
+    <string name="news">Новости</string>
+    <string name="games">Игры</string>
+    <string name="search">Search</string>
+
+    <string-array name="blogs">
+        <item>Новые темы</item>
+        <item>Топ</item>
+        <item>Сообщества</item>
+        <item>Мое избранное</item>
+    </string-array>
+
+    <string-array name="faq">
+        <item>Новые вопросы</item>
+        <item>Популярные</item>
+        <item>Правила сайта</item>
+        <item>Помощь по сайту</item>
+    </string-array>
+
+    <string-array name="gallery">
+        <item>Скриншоты</item>
+        <item>Обои</item>
+    </string-array>
+
+    <string-array name="games">
+        <item>Поиск</item>
+        <item>Дата выхода</item>
+        <item>Обзоры посетителей</item>
+        <item>Факты</item>
+        <item>Топ-100</item>
+        <item>Модификации</item>
+        <item>Обзор мобильных игр</item>
+    </string-array>
+
+    <string-array name="live">
+        <item>Расписание эфиров</item>
+        <item>Записи трансляций</item>
+        <item>Трансляции</item>
+    </string-array>
+    
+    <string-array name="news">
+        <item>Все</item>
+        <item>PC</item>
+        <item>Xbox 360</item>
+        <item>Xbox One</item>
+        <item>PlayStation 3</item>
+        <item>PlayStation 4</item>
+        <item>PS Vita</item>
+        <item>VR</item>
+        <item>Wii U</item>
+        <item>Nintendo Switch</item>
+        <item>Mad Box</item>
+        <item>MMO</item>
+        <item>Мобильные</item>
+        <item>Социальные</item>
+        <item>Железо</item>
+        <item>Индустрия</item>
+        <item>Киберспорт</item>
+        <item>Кино</item>
+    </string-array>
+
+    <string-array name="people">
+        <item>Новые</item>
+        <item>В онлайне</item>
+        <item>Рейтинг</item>
+        <item>Поиск</item>
+    </string-array>
+
+    <string-array name="secrets">
+        <item>Прохождения</item>
+        <item>Чит-коды</item>
+        <item>Трейнеры</item>
+        <item>Сохранения</item>
+        <item>Советы и тактика</item>
+    </string-array>
+
+    <string-array name="videos">
+        <item>Инфакт</item>
+        <item>Игрозор</item>
+        <item>Календарь релизов</item>
+        <item>ММОдерн</item>
+        <item>Ретрозор</item>
+        <item>Индикатор</item>
+        <item>Appzor</item>
+        <item>Обзоры</item>
+        <item>Превью</item>
+        <item>Репортажи</item>
+        <item>Разбор полетов</item>
+        <item>История серии</item>
+        <item>Трейлеры</item>
+        <item>Машинима</item>
+        <item>Игровое кино</item>
+        <item>Трудности перевода</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="writings">
+        <item>Первая полоса</item>
+        <item>Рецензии</item>
+        <item>Превью</item>
+        <item>Интервью</item>
+        <item>Железный дайджест</item>
+    </string-array>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lordcoudy.stopgamev20">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/stopgame"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/stopgame"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MenuActivities.FAQActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.faq" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.GamesActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.games" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.NewsActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.news" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.GalleryActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.gallery" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.BlogsActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.blogs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.LiveActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.live" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.PeopleActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.people" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.SecretsActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.secrets" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.VideosActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.videos" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivities.WritingsActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme">-->
+
+            <intent-filter>
+                <action android:name="com.lordcoudy.stopgamev20.writings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

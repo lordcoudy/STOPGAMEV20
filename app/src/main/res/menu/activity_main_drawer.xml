@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/games"
+            android:title="@string/games" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_writings"
+            android:icon="@drawable/writings"
+            android:title="@string/writings" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/videos"
+            android:title="@string/videos" />
+        <item
+            android:id="@+id/nav_live"
+            android:icon="@drawable/live"
+            android:title="@string/live" />
+        <item
+            android:id="@+id/nav_secrets"
+            android:icon="@drawable/secrets"
+            android:title="@string/secrets" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_blogs"
+            android:icon="@drawable/blogs"
+            android:title="@string/blogs" />
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/people"
+            android:title="@string/people" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/faq"
+            android:title="@string/faq" />
+    </group>
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView" />
+
+</menu>
